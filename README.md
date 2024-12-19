@@ -24,7 +24,7 @@
           * Book Table - 1 KB
           * BookInventory Table - 1 KB
           * Reservation Table - 1 KB
-        Above are single record memory estimation
+          * Above are single record memory estimation
       * DB Storage
           * User Table - 200 * 1 KB = 200 KB
           * Book Table - 200 * 1 KB = 200 KB
@@ -36,14 +36,14 @@
               * User Table - 1 KB 
               * BookInventory Table - 400 KB
               * Book Table - 200 KB
-              * 1 User = 600 KB, 10 Users = 400 * 10 KB = 4 MB
+              * 1 User = 600 KB, 10 Users = 600 * 10 KB = 6 MB/sec
           * Write
               * Reservation Table - min 2 reservations - 2 KB
               * User Table - 1 KB (updating user profile information)
               * Book Table - min 2 books added - 2 KB
               * Book Inventory - 4 KB
               * 1 User = 10 KB, 40 Users = 40 * 10 = 400 KB
-          * Estimated Bandwidth = Read + Write = 4 MB + 4 KB ~ 4 MB/sec
+          * Estimated Bandwidth = Read + Write = 6 MB + 4 KB ~ 6 MB/sec
 
       
 
